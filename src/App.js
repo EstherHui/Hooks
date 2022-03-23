@@ -1,12 +1,14 @@
-import logo from './logo.svg';
+
 import './App.css';
 import ClassCounterOne from './component/ClassCounterOne';
+import HooksCounterOne from './component/HooksCounterOne';
 
 function App() {
   return (
     <div className="App">
       
-      <ClassCounterOne />
+      {/* <ClassCounterOne /> */}
+      <HooksCounterOne />
 
     </div>
   );
